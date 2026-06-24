@@ -66,8 +66,8 @@ video.style.top="100px";
 charactersDiv.appendChild(video);
 
 characters.push({
-x:300,
-y:300,
+x:100,
+y:100,
 damage:1,
 element:video
 });
