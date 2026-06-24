@@ -64,7 +64,7 @@ position:relative;
 
 .character{
 position:absolute;
-width: 100px;
+width: 200px;
 height:100px;
 object-fit:contain;
 }
