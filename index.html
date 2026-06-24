@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Miku VS Zombies - YARARARA</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MENU -->
+<div id="menu">
+
+    <img src="logo.png" class="logo">
+
+    <button id="startBtn">
+        START
+    </button>
+
+</div>
+
+<!-- VIDEO BACKGROUND -->
+<video
+id="bgVideo"
+loop
+playsinline
+style="display:none;">
+
+    <source src="[MV] ABM - _ヤラララ_ (YARARARA) feat. 重音テト(720P_HD).mp4" type="video/mp4">
+ts/yararara.mp4
+</video>
+
+<!-- HUD -->
+<div id="hud">
+
+    <div id="roundText">Round 1</div>
+
+    <div id="cycleText">Ciclo 1</div>
+
+    <div id="baseLife">
+        Base ❤️
+        <span id="lifeValue">100</span>
+    </div>
+
+</div>
+
+<!-- JOGO -->
+<div id="game">
+
+    <div id="grid"></div>
+
+    <div id="characters"></div>
+
+    <div id="zombies"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
